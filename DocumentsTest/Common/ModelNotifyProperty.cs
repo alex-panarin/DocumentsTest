@@ -10,6 +10,7 @@ namespace DocumentsTest.Common
         protected virtual void OnPropertyChanged([CallerMemberName] string propertyName = default)
         {
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
+
         }
     }
 }
